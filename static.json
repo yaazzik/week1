@@ -2,6 +2,7 @@
     "headers": {
       "/*": {
         "X-Author": "Глебов, Марк Дмитриевич"
+        "Access-Control-Allow-Origin": "*"
       }
     }
 }

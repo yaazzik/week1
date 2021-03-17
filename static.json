@@ -1,20 +1,22 @@
 {
   "routes": {
     "/login/": "/login.html",
-    "/sample/": "/sample.html"
+    "/promise/": "/promise.html",
+    "/fetch/": "/fetch.html"
   },
   
   "headers": {
     "/*": {
-      "X-Author": yaazzik,
+      "X-Author": "yaazzik",
       "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"      
     },
-    "/sample/": {
-      "Content-Type": "text/plain",
-      "Access-Control-Allow-Origin": "*"
+    "/promise/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain"      
     }
   }
+}

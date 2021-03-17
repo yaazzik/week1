@@ -1,7 +1,12 @@
-{  
+{
+  "routes": {
+    "/login/": "/login.html",
+    "/sample/": "/sample.html"
+  },
+  
   "headers": {
     "/*": {
-      "X-Author": 190633,
+      "X-Author": yaazzik,
       "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
@@ -13,4 +18,3 @@
       "Access-Control-Allow-Origin": "*"
     }
   }
-}

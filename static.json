@@ -20,6 +20,7 @@
     },
      "/sample/": {
       "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain"      
+      "Content-Type": "text/plain"    
+    }
   }
 }

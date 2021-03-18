@@ -17,6 +17,9 @@
     "/promise/": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain"      
-    }
+    },
+     "/sample/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain"      
   }
 }

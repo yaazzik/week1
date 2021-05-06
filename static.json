@@ -1,27 +1,26 @@
 {
-  "routes": {
-    "/login/": "/login/login.html",
-    "/promise/": "/promise.html",
-    "/fetch/": "/fetch.html",
-    "/sample/": "/sample/sample.html"
-  },
-  
   "headers": {
     "/*": {
-      "X-Author": "yaazzik",
+      "X-Author": "balrundev",
       "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8" 
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/sample/": {
+      "Access-Control-Allow-Origin": "*"
     },
     "/promise/": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain"      
+      "Access-Control-Allow-Origin": "*"
     },
-     "/sample/": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain" 
+    "/fetch/": {
+      "Access-Control-Allow-Origin": "*"
     }
+  },
+  "routes": {
+    "/login/": "/login.txt",
+    "/sample/": "/sample.txt",
+    "/promise/": "/promise.txt",
+    "/fetch/": "/fetch.html"
   }
 }
